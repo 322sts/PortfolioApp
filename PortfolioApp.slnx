@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="PortfolioApp.ConsolApp/PortfolioApp.ConsoleApp.csproj" />
+  <Project Path="PortfolioApp.Core/PortfolioApp.Core.csproj" />
+  <Project Path="PortfolioApp.Test/PortfolioApp.Tests.csproj" />
+</Solution>

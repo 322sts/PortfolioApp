@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\banba\\Desktop\\DEV\\C#\\3-Github\\PortfolioApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A088E05B-A868-63C4-0D0E-24308F965F37}|PortfolioApp.ConsolApp\\PortfolioApp.ConsoleApp.csproj|c:\\users\\banba\\desktop\\dev\\c#\\3-github\\portfolioapp\\portfolioapp.consolapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A088E05B-A868-63C4-0D0E-24308F965F37}|PortfolioApp.ConsolApp\\PortfolioApp.ConsoleApp.csproj|solutionrelative:portfolioapp.consolapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731508FC-60FE-88EB-797B-A000F6AD624B}|PortfolioApp.Core\\PortfolioApp.Core.csproj|c:\\users\\banba\\desktop\\dev\\c#\\3-github\\portfolioapp\\portfolioapp.core\\portfolioapp.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{731508FC-60FE-88EB-797B-A000F6AD624B}|PortfolioApp.Core\\PortfolioApp.Core.csproj|solutionrelative:portfolioapp.core\\portfolioapp.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731508FC-60FE-88EB-797B-A000F6AD624B}|PortfolioApp.Core\\PortfolioApp.Core.csproj|c:\\users\\banba\\desktop\\dev\\c#\\3-github\\portfolioapp\\portfolioapp.core\\models\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731508FC-60FE-88EB-797B-A000F6AD624B}|PortfolioApp.Core\\PortfolioApp.Core.csproj|solutionrelative:portfolioapp.core\\models\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731508FC-60FE-88EB-797B-A000F6AD624B}|PortfolioApp.Core\\PortfolioApp.Core.csproj|c:\\users\\banba\\desktop\\dev\\c#\\3-github\\portfolioapp\\portfolioapp.core\\models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731508FC-60FE-88EB-797B-A000F6AD624B}|PortfolioApp.Core\\PortfolioApp.Core.csproj|solutionrelative:portfolioapp.core\\models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731508FC-60FE-88EB-797B-A000F6AD624B}|PortfolioApp.Core\\PortfolioApp.Core.csproj|c:\\users\\banba\\desktop\\dev\\c#\\3-github\\portfolioapp\\portfolioapp.core\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731508FC-60FE-88EB-797B-A000F6AD624B}|PortfolioApp.Core\\PortfolioApp.Core.csproj|solutionrelative:portfolioapp.core\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731508FC-60FE-88EB-797B-A000F6AD624B}|PortfolioApp.Core\\PortfolioApp.Core.csproj|c:\\users\\banba\\desktop\\dev\\c#\\3-github\\portfolioapp\\portfolioapp.core\\models\\transactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731508FC-60FE-88EB-797B-A000F6AD624B}|PortfolioApp.Core\\PortfolioApp.Core.csproj|solutionrelative:portfolioapp.core\\models\\transactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731508FC-60FE-88EB-797B-A000F6AD624B}|PortfolioApp.Core\\PortfolioApp.Core.csproj|c:\\users\\banba\\desktop\\dev\\c#\\3-github\\portfolioapp\\portfolioapp.core\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731508FC-60FE-88EB-797B-A000F6AD624B}|PortfolioApp.Core\\PortfolioApp.Core.csproj|solutionrelative:portfolioapp.core\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\banba\\Desktop\\DEV\\C#\\3-Github\\PortfolioApp\\PortfolioApp.ConsolApp\\Program.cs",
+              "RelativeDocumentMoniker": "PortfolioApp.ConsolApp\\Program.cs",
+              "ToolTip": "C:\\Users\\banba\\Desktop\\DEV\\C#\\3-Github\\PortfolioApp\\PortfolioApp.ConsolApp\\Program.cs",
+              "RelativeToolTip": "PortfolioApp.ConsolApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T10:38:45.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Portfolio.cs",
+              "DocumentMoniker": "C:\\Users\\banba\\Desktop\\DEV\\C#\\3-Github\\PortfolioApp\\PortfolioApp.Core\\Models\\Portfolio.cs",
+              "RelativeDocumentMoniker": "PortfolioApp.Core\\Models\\Portfolio.cs",
+              "ToolTip": "C:\\Users\\banba\\Desktop\\DEV\\C#\\3-Github\\PortfolioApp\\PortfolioApp.Core\\Models\\Portfolio.cs",
+              "RelativeToolTip": "PortfolioApp.Core\\Models\\Portfolio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T10:34:24.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\Users\\banba\\Desktop\\DEV\\C#\\3-Github\\PortfolioApp\\PortfolioApp.Core\\Models\\Position.cs",
+              "RelativeDocumentMoniker": "PortfolioApp.Core\\Models\\Position.cs",
+              "ToolTip": "C:\\Users\\banba\\Desktop\\DEV\\C#\\3-Github\\PortfolioApp\\PortfolioApp.Core\\Models\\Position.cs",
+              "RelativeToolTip": "PortfolioApp.Core\\Models\\Position.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T10:34:15.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\banba\\Desktop\\DEV\\C#\\3-Github\\PortfolioApp\\PortfolioApp.Core\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "PortfolioApp.Core\\Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\banba\\Desktop\\DEV\\C#\\3-Github\\PortfolioApp\\PortfolioApp.Core\\Models\\Transaction.cs",
+              "RelativeToolTip": "PortfolioApp.Core\\Models\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T10:34:05.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TransactionType.cs",
+              "DocumentMoniker": "C:\\Users\\banba\\Desktop\\DEV\\C#\\3-Github\\PortfolioApp\\PortfolioApp.Core\\Models\\TransactionType.cs",
+              "RelativeDocumentMoniker": "PortfolioApp.Core\\Models\\TransactionType.cs",
+              "ToolTip": "C:\\Users\\banba\\Desktop\\DEV\\C#\\3-Github\\PortfolioApp\\PortfolioApp.Core\\Models\\TransactionType.cs",
+              "RelativeToolTip": "PortfolioApp.Core\\Models\\TransactionType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T10:33:43.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\banba\\Desktop\\DEV\\C#\\3-Github\\PortfolioApp\\PortfolioApp.Core\\Models\\Stock.cs",
+              "RelativeDocumentMoniker": "PortfolioApp.Core\\Models\\Stock.cs",
+              "ToolTip": "C:\\Users\\banba\\Desktop\\DEV\\C#\\3-Github\\PortfolioApp\\PortfolioApp.Core\\Models\\Stock.cs",
+              "RelativeToolTip": "PortfolioApp.Core\\Models\\Stock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T10:36:30.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PortfolioApp.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\banba\\Desktop\\DEV\\C#\\3-Github\\PortfolioApp\\PortfolioApp.Core\\PortfolioApp.Core.csproj",
+              "RelativeDocumentMoniker": "PortfolioApp.Core\\PortfolioApp.Core.csproj",
+              "ToolTip": "C:\\Users\\banba\\Desktop\\DEV\\C#\\3-Github\\PortfolioApp\\PortfolioApp.Core\\PortfolioApp.Core.csproj",
+              "RelativeToolTip": "PortfolioApp.Core\\PortfolioApp.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-14T10:28:52.635Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
