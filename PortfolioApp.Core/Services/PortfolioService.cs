@@ -120,11 +120,17 @@ namespace PortfolioApp.Core.Services
             int newQuantity = existing.Quantity - quantity;
             existing.Quantity = newQuantity;
 
-            // 7. Full sale: remove the position
-            if (existing.Quantity == 0)         // == pour comparer (= sert à ranger une valeur)
+            // 7. Remove the position
+            if (existing.Quantity == 0)         
             {
-                _portfolio.Positions.Remove(existing);   // on retire la fiche sur laquelle le doigt est posé
+                _portfolio.Positions.Remove(existing);   
             }
+
+            // 8. Add cash to portfolio
+            _portfolio.Cash = cashout + _portfolio.Cash;
+
+            // 9. Save transaction to transactions history
+            _portfolio.Transactions.Add(new Transaction(DateTime.Now, TransactionType.Sell, symbol, quantity, price, fees));
         }
     }
 }
