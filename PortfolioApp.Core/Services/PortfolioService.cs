@@ -76,5 +76,55 @@ namespace PortfolioApp.Core.Services
             
             
         }
+
+        public void Sell(string symbol, int quantity, decimal fees = 0m)
+        {
+            // 1. Verfify quantity
+            if (quantity <= 0)
+            {
+                throw new ArgumentException("You can't sell 0 or negative stocks.");
+            }
+
+            // 2. Look if have position
+            Position? existing = null;
+            foreach (Position position in _portfolio.Positions)
+            {
+                if (position.Symbol == symbol)
+                {
+                    existing = position;
+                    break;
+                }
+            }
+
+            // VERIFY IF USER WONT SELL STOCKS THAT HE DOESN'T OWN
+            if (existing == null)
+            {
+                throw new InvalidOperationException("You can't sell stocks you don't own.");
+            }
+
+            // VERIFY IF USER WONT SELL MORE THAN HE OWN
+            if (quantity > existing.Quantity)
+            {
+                throw new InvalidOperationException("You can't sell more stocks than you own.");
+            }
+
+            // 3. Find out the price
+            decimal price = _marketData.GetPrice(symbol);
+
+            // 4. Calculate cashout
+            decimal cashout = quantity * price - fees;
+
+            // 5. Calculate the capital gains
+            decimal realizedGain = (price - existing.AveragePrice) * quantity - fees;
+
+            int newQuantity = existing.Quantity - quantity;
+            existing.Quantity = newQuantity;
+
+            // 7. Full sale: remove the position
+            if (existing.Quantity == 0)         // == pour comparer (= sert à ranger une valeur)
+            {
+                _portfolio.Positions.Remove(existing);   // on retire la fiche sur laquelle le doigt est posé
+            }
+        }
     }
 }
