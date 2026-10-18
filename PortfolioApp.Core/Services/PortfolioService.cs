@@ -132,5 +132,21 @@ namespace PortfolioApp.Core.Services
             // 9. Save transaction to transactions history
             _portfolio.Transactions.Add(new Transaction(DateTime.Now, TransactionType.Sell, symbol, quantity, price, fees));
         }
+
+        public decimal GetTotalValue()
+        {
+            // 1. Remplir la tirelire avec le cash
+            decimal total = _portfolio.Cash;
+
+            // 2. Pour chaque fiche, ajouter sa valeur actuelle
+            foreach (Position position in _portfolio.Positions)
+            {
+                decimal price = _marketData.GetPrice(position.Symbol);
+                total += position.Quantity * price;
+            }
+
+            // 3. Donner la réponse
+            return total;
+        }
     }
 }
