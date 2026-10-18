@@ -1,5 +1,6 @@
 ﻿using PortfolioApp.Core.Models;
 using PortfolioApp.Core.Services;
+using System.Numerics;
 
 public class Program
 {
@@ -14,8 +15,12 @@ public class Program
         marketData.RefreshPrices();
         service.Buy("AAPL", 5, 2m);
         service.Buy("MSFT", 3);
-        
-        for (int i = 1; i <= 3; i++)
+        service.Sell("AAPL", 5);
+        marketData.RefreshPrices();
+        service.Sell("AAPL", 5, 2m);
+        service.Sell("MSFT", 1);
+
+        for (int i = 1; i <= 5; i++)
         {
             Console.WriteLine($"================================================== REFRESH {i} ==================================================");
 
@@ -28,6 +33,7 @@ public class Program
                 
             }
             Console.WriteLine($"Cash :{portfolio.Cash:F2}€");
+            Console.WriteLine($"Total value of your portfolio : {service.GetTotalValue():F2}");
             marketData.RefreshPrices();
         }
 
