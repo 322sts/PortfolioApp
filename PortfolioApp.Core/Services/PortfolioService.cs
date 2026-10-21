@@ -135,18 +135,35 @@ namespace PortfolioApp.Core.Services
 
         public decimal GetTotalValue()
         {
-            // 1. Remplir la tirelire avec le cash
+            // 1. Put cash in total value
             decimal total = _portfolio.Cash;
 
-            // 2. Pour chaque fiche, ajouter sa valeur actuelle
+            // 2. For each add actual value
             foreach (Position position in _portfolio.Positions)
             {
                 decimal price = _marketData.GetPrice(position.Symbol);
                 total += position.Quantity * price;
             }
 
-            // 3. Donner la réponse
             return total;
         }
+
+        public decimal GetUnrealizedGains()
+        {
+            // 1. Start unrealizedGains at 0 
+            decimal unrealizedGains = 0m;
+
+            // 2. For each add position's gains to the unrealizedGains
+            foreach (Position position in _portfolio.Positions)
+            {
+                decimal price = _marketData.GetPrice(position.Symbol);
+                decimal positionGain = (position.Quantity * price) - (position.Quantity * position.AveragePrice);
+                unrealizedGains += positionGain;
+            }
+
+            return unrealizedGains;
+        }
+
+        
     }
 }

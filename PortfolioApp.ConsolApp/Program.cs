@@ -34,6 +34,8 @@ public class Program
             }
             Console.WriteLine($"Cash :{portfolio.Cash:F2}€");
             Console.WriteLine($"Total value of your portfolio : {service.GetTotalValue():F2}");
+            Console.WriteLine($"Your unrealized gains : {service.GetUnrealizedGains():F2}€");
+
             marketData.RefreshPrices();
         }
 
