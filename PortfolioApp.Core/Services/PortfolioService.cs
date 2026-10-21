@@ -165,6 +165,33 @@ namespace PortfolioApp.Core.Services
             return unrealizedGains;
         }
 
-        
+
+
+        public Dictionary<string, decimal> GetAllocation()
+        {
+            // 1. Create a void annuary
+            Dictionary<string, decimal> allocation = new Dictionary<string, decimal>();
+
+            // 2. Provide the total Value
+            decimal total = GetTotalValue();
+
+            // 3. If total is 0 return void annuary
+            if (total == 0m)
+            {
+                return allocation;
+            }
+
+            Position? existing = null;
+            // 4. For each : price, value, percentage, add in the annuary
+            {
+
+            }
+
+            // 5. Pourcentage du cash, ajouté avec la clé "CASH"
+            //    → à toi
+
+            // 6. Renvoyer l'annuaire
+            return allocation;
+        }
     }
 }

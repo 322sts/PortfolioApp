@@ -10,6 +10,5 @@ namespace PortfolioApp.Core.Models
         public decimal RealizedGains { get; set; }
         public List<Position> Positions { get; set; } = new List<Position>();
         public List<Transaction> Transactions { get; set; } = new List<Transaction>();
-
     }
 }
