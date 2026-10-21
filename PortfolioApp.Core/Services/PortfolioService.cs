@@ -116,6 +116,7 @@ namespace PortfolioApp.Core.Services
 
             // 5. Calculate the capital gains
             decimal realizedGain = (price - existing.AveragePrice) * quantity - fees;
+            _portfolio.RealizedGains += realizedGain;
 
             int newQuantity = existing.Quantity - quantity;
             existing.Quantity = newQuantity;
